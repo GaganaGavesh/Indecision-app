@@ -1,0 +1,27 @@
+// widget header
+
+.widget {
+  background: $light-blue;
+  margin-bottom: $xl-sixe;
+}
+
+.widget__message {
+  color: $off-white;
+  padding: $l-size;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid darken($light-blue, 10%);
+}
+
+.widget-header {
+  background: $blue;
+  color: $off-white;
+  display: flex;
+  justify-content: space-between;
+  padding: $m-size;
+}
+
+.widget-header__title {
+  //mehema thama element selector danne
+  margin: 0;
+}

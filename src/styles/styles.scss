@@ -1,0 +1,17 @@
+// $brand-color : blue;
+
+
+// * {
+//     color: $brand-color;
+// }
+
+@import './base/settings';
+@import './base/base';//leave the extension and "_" -> this @import is scss syntax ehich is differ from js
+@import './components/add-option';
+@import './components/button';
+@import './components/container';
+@import './components/header';
+@import './components/model';
+@import './components/widget';
+@import './components/option';
+

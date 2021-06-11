@@ -1,0 +1,42 @@
+//For big button
+
+.big-button {
+  background-color: $purple;
+  border: none;
+  border-bottom: 0.6rem solid darken($purple, 10%);
+  color: white;
+  font-weight: bold;
+  font-size: $l-size;
+  margin-bottom: $l-size;
+  width: 100%;
+  padding: 2.4rem;
+}
+
+.big-button:disabled {
+  //button eka disabled wela tynakota opacity eka .5k karala tynna kiyala kiyanne
+  opacity: 0.5;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .big-button{
+    margin-bottom: $xl-sixe;
+  }
+}
+
+//Button
+.button {
+  background: $purple;
+  border: none;
+  border-bottom: 0.3rem solid darken($purple, 10%);
+  color: white;
+  font-weight: 500;
+  padding: $s-size;
+}
+
+//BEM -> B block E element M modifire  // modifire walata class name ekak ekka -- dane
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
